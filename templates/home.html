@@ -1,0 +1,17 @@
+<div style="background-color: green; padding: 3px">
+<h1 style="color: white; align-items: center">Cookups Product Price Calculator</h1></div>
+<br>
+<br>
+<div align="center">
+<h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Prime Ingredient</h3>
+</div>
+
+
+<form action="{% url 'count' %}">
+<textarea cols="40" rows="8" name="fulltext"></textarea> <br><br>
+<button type="submit" value="Count!">Count!</button>
+
+</form>
+<form action="{% url 'about' %}">
+    <button type="submit" value="about">about</button>
+</form>
